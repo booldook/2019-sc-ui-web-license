@@ -10,40 +10,40 @@ img, span {margin: 0; padding: 0;}
 
 * {box-sizing: border-box;}
 .clear:after {display: block; content: ""; clear: both;}
-
 .wrap {width: 960px; margin: auto;}
 
-.tops{}
-.tops .logo {float: left;}
-.tops .navs {float: right;}
-.tops .nav {float: left; padding: 8px 16px; margin: 0 40px;}
+/* 상단네비 1 */
+.logo1 {float: left;}
+.nav1 {float: right; cursor: pointer;}
+.top-nav1 {float: left; width: 120px; height: 40px; line-height: 40px; text-align: center; background-color: orange; border: 1px solid #f00; position: relative;}
+.mn-nav1:hover {background-color: red; color: #fff;}
+.sub-nav1 {position: absolute; left: 0; top: 40px; width: 100%; background-color: rgba(0,0,0,0.8); display: none;}
+.sub-nav1 > li {padding: 8px 0; color: #fff;}
+.sub-nav1 > li:hover {background-color: red; color: #fff;}
+.mn-hover1 {background-color: red; color: white;}
 
-.tops2 .logo {float: left;}
-.tops2 .navs {float: right;}
-.tops2 .nav {float: left; width: 120px; height: 40px; line-height: 40px; text-align: center; background-color: aquamarine; border: 1px solid #f00; position: relative;}
-.tops2 .nav ul {position: absolute; left: 0; top: 40px; width: 100%; background-color: rgba(0,0,0,0.8); display: none;}
-.tops2 .nav li {padding: 8px 0; color: #fff;}
+/* 상단네비 2 */
+.logo2 {float: left;}
+.nav2 {float: right; position: relative; cursor: pointer;}
+.mn-nav2 {float: left; width: 120px; height: 40px; line-height: 40px; text-align: center; background-color: orange; border: 1px solid #f00;}
+.sub-nav2 {position: absolute; top: 40px; left: 0; background-color: rgba(0,0,0,0.8); color: #fff; display: none;}
+.sub-nav2 ul {float: left; width: 120px;}
+.sub-nav2 li {padding: 8px 0; text-align: center;}
+.sub-nav2 li:hover {background-color: orange; color: #000;}
+.mn-hover2 {background-color: red; color: white;}
 
-.tops {height: 100px;}
-.tops3 .logo {float: left;}
-.tops3 .navs {float: right; position: relative;}
-.tops3 .nav {float: left; width: 120px; height: 40px; line-height: 40px; text-align: center; background-color: orange; border: 1px solid #f00;}
-.tops3 .nav:hover {background-color: red !important; color: white !important;}
-.tops3 .nav-sub {position: absolute; top: 40px; left: 0; background-color: rgba(0,0,0,0.8); color: #fff; display: none;}
-.tops3 .nav-sub ul {float: left; width: 120px;}
-.tops3 .nav-sub li {padding: 8px 0; text-align: center;}
-.tops3 .nav-sub li:hover {background-color: orange; color: #000;}
 
-.tops4 {position: relative;}
-.tops4 .logo {float: left;}
-.tops4 .navs {float: right;}
-.tops4 .nav {float: left; width: 120px; height: 40px; line-height: 40px; text-align: center; background-color: orange; border: 1px solid #f00;}
-.tops4 .nav:hover {background-color: red !important; color: white !important;}
-.tops4 .nav-sub {width: 960px; position: absolute; top: 40px; left: 0; background-color: rgba(0,0,0,0.8); color: #fff; display: none;}
-.tops4 .nav-sub > div {float: right;}
-.tops4 .nav-sub ul {float: left; width: 120px;}
-.tops4 .nav-sub li {padding: 8px 0; text-align: center;}
-.tops4 .nav-sub li:hover {background-color: orange; color: #000;}
+/* 상단네비 3 */
+.tops3 {position: relative;}
+.logo3 {float: left;}
+.nav3 {float: right;}
+.mn-nav3 {float: left; width: 120px; height: 40px; line-height: 40px; text-align: center; background-color: orange; border: 1px solid #f00;}
+.sub-nav3 {width: 960px; position: absolute; top: 40px; left: 0; background-color: rgba(0,0,0,0.8); color: #fff; display: none;}
+.sub-nav3 > div {float: right;}
+.sub-nav3 ul {float: left; width: 120px;}
+.sub-nav3 li {padding: 8px 0; text-align: center;}
+.sub-nav3 li:hover {background-color: orange; color: #000;}
+.mn-hover3 {background-color: red; color: white;}
 
 
 .lt1 {width: 160px;}

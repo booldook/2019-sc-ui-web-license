@@ -1,51 +1,58 @@
 $(document).ready(function(){
 	
-	// 상단 - 개별 네비
-	$(".tops2 .nav").mouseover(function(){
-		$(".tops2 .nav ul").stop().slideUp(300);
-		$(this).find("ul").stop().slideDown(300);
+	// 상단 네비 1
+	$(".mn-nav1").mouseover(function(){
+		$(".sub-nav1").stop().slideUp(300);
+		$(this).next().stop().slideDown(300);
+		$(".mn-hover1").removeClass("mn-hover1");
+		$(this).addClass("mn-hover1");
 	});
 	
-	$(".tops2 .nav").mouseleave(function(){
-		$(".tops2 .nav ul").stop().slideUp(300);
+	$(".top-nav1").mouseleave(function(){
+		$(".sub-nav1").stop().slideUp(300);
+		$(".mn-nav1").removeClass("mn-hover1");
 	});
 	
-	// 상단 - 전체 네비
-	$(".tops3 .navs").mouseover(function(){
-		$(this).find(".nav-sub").stop().slideDown(300);
+	// 상단 네비 2
+	$(".nav2").mouseover(function(){
+		$(".sub-nav2").stop().slideDown(300);
 	});
 	
-	$(".tops3 .navs").mouseleave(function(){
-		$(this).find(".nav-sub").stop().slideUp(300);
+	$(".nav2").mouseleave(function(){
+		$(".mn-nav2").removeClass("mn-hover2");
+		$(".sub-nav2").stop().slideUp(300);
+	});
+	
+	$(".sub-nav2 ul").mouseover(function(){
+		var i = $(this).index();
+		$(".mn-nav2").removeClass("mn-hover2");
+		$(".mn-nav2").eq(i).addClass("mn-hover2");	
+	});
+	
+	$(".mn-nav2").mouseover(function(){
+		$(".mn-nav2").removeClass("mn-hover2");
+		$(this).addClass("mn-hover2");
+	});
+	
+	// 상단 네비 3
+	$(".nav3").mouseover(function(){
+		$(".sub-nav3").stop().slideDown(300);
+	});
+	
+	$(".nav3").mouseleave(function(){
+		$(".mn-nav3").removeClass("mn-hover3");
+		$(".sub-nav3").stop().slideUp(300);
 	});
 
-	$(".tops3 .nav-sub ul").mouseover(function(){
+	$(".sub-nav3 ul").mouseover(function(){
 		var i = $(this).index();
-		$(".tops3 .nav").css({"background-color": "orange", "color": "#333"});
-		$(".tops3 .nav").eq(i).css({"background-color": "red", "color": "white"});
+		$(".mn-nav3").removeClass("mn-hover3");
+		$(".mn-nav3").eq(i).addClass("mn-hover3");
 	});
 	
-	$(".tops3 .nav-sub ul").mouseleave(function(){
-		$(".tops3 .nav").css({"background-color": "orange", "color": "#333"});
-	});
-	
-	
-	$(".tops4 .navs").mouseover(function(){
-		$(this).find(".nav-sub").stop().slideDown(300);
-	});
-	
-	$(".tops4 .navs").mouseleave(function(){
-		$(this).find(".nav-sub").stop().slideUp(300);
-	});
-
-	$(".tops4 .nav-sub > div > ul").mouseover(function(){
-		var i = $(this).index();
-		$(".tops4 .nav").css({"background-color": "orange", "color": "#333"});
-		$(".tops4 .nav").eq(i).css({"background-color": "red", "color": "white"});
-	});
-	
-	$(".tops4 .nav-sub > div > ul").mouseleave(function(){
-		$(".tops4 .nav").css({"background-color": "orange", "color": "#333"});
+	$(".mn-nav3").mouseover(function(){
+		$(".mn-nav3").removeClass("mn-hover3");
+		$(this).addClass("mn-hover3");
 	});
 	
 	// 왼쪽 - 마우스오버

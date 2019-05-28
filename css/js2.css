@@ -1,0 +1,76 @@
+/* 시험장에서 안넣어도 되는 것 */
+html, body {height: 100%;}
+.box {border: 10px solid #999; padding: 30px; height: 100%;}
+
+/* 여기서 부터 시험 */
+html, body {margin: 0; padding: 0; font-size: 12px; color: #333;}
+div, ul, li, h1, h2, h3, h4, h5, h6 {margin: 0; padding: 0; list-style: none;}
+table, td {margin: 0; padding: 0; border: 0; border-spacing: 0; border-collapse: collapse;}
+img, span {margin: 0; padding: 0;}
+
+* {box-sizing: border-box;}
+.clear:after {display: block; content: ""; clear: both;}
+
+.wrap {width: 960px; margin: auto;}
+
+.tops{}
+.tops .logo {float: left;}
+.tops .navs {float: right;}
+.tops .nav {float: left; padding: 8px 16px; margin: 0 40px;}
+
+.tops2 .logo {float: left;}
+.tops2 .navs {float: right;}
+.tops2 .nav {float: left; width: 120px; height: 40px; line-height: 40px; text-align: center; background-color: aquamarine; border: 1px solid #f00; position: relative;}
+.tops2 .nav ul {position: absolute; left: 0; top: 40px; width: 100%; background-color: rgba(0,0,0,0.8); display: none;}
+.tops2 .nav li {padding: 8px 0; color: #fff;}
+
+.tops {height: 100px;}
+.tops3 .logo {float: left;}
+.tops3 .navs {float: right; position: relative;}
+.tops3 .nav {float: left; width: 120px; height: 40px; line-height: 40px; text-align: center; background-color: orange; border: 1px solid #f00;}
+.tops3 .nav:hover {background-color: red !important; color: white !important;}
+.tops3 .nav-sub {position: absolute; top: 40px; left: 0; background-color: rgba(0,0,0,0.8); color: #fff; display: none;}
+.tops3 .nav-sub ul {float: left; width: 120px;}
+.tops3 .nav-sub li {padding: 8px 0; text-align: center;}
+.tops3 .nav-sub li:hover {background-color: orange; color: #000;}
+
+.tops4 {position: relative;}
+.tops4 .logo {float: left;}
+.tops4 .navs {float: right;}
+.tops4 .nav {float: left; width: 120px; height: 40px; line-height: 40px; text-align: center; background-color: orange; border: 1px solid #f00;}
+.tops4 .nav:hover {background-color: red !important; color: white !important;}
+.tops4 .nav-sub {width: 960px; position: absolute; top: 40px; left: 0; background-color: rgba(0,0,0,0.8); color: #fff; display: none;}
+.tops4 .nav-sub > div {float: right;}
+.tops4 .nav-sub ul {float: left; width: 120px;}
+.tops4 .nav-sub li {padding: 8px 0; text-align: center;}
+.tops4 .nav-sub li:hover {background-color: orange; color: #000;}
+
+
+.lt1 {width: 160px;}
+.lt1 > .lt-nav {padding: 8px; background-color: #ccc; border: 1px solid #f00;}
+.lt1 ul {display: none;}
+.lt1 li {padding: 8px;}
+
+.lt2 {width: 160px;}
+.lt2 > .lt-nav {background-color: #ccc; border: 1px solid #f00; position: relative;}
+.lt2 > .lt-nav > div {padding: 8px;}
+.lt2 ul {position: absolute; width: 100%; top: 0; left: 160px; background-color: rgba(0,0,0,0.8); color: white; display: none;}
+.lt2 li {padding: 8px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
