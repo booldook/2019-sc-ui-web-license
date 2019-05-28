@@ -1,3 +1,8 @@
+/* 시험장에서 안넣어도 되는 것 */
+html, body {height: 100%;}
+.box {border: 10px solid #999; padding: 30px; height: 100%;}
+
+/* 여기서 부터 시험 */
 html, body {margin: 0; padding: 0; font-size: 12px; color: #333;}
 div, ul, li, h1, h2, h3, h4, h5, h6 {margin: 0; padding: 0; list-style: none;}
 table, td {margin: 0; padding: 0; border: 0; border-spacing: 0; border-collapse: collapse;}
@@ -5,11 +10,6 @@ img, span {margin: 0; padding: 0;}
 
 * {box-sizing: border-box;}
 .clear:after {display: block; content: ""; clear: both;}
-
-/* 시험장에서 안넣어도 되는 것 */
-html, body {height: 100%;}
-.box {border: 10px solid #999; padding: 30px;}
-
 
 .wrap {width: 960px; margin: auto;}
 
@@ -29,7 +29,7 @@ html, body {height: 100%;}
 .tops3 .navs {float: right; position: relative;}
 .tops3 .nav {float: left; width: 120px; height: 40px; line-height: 40px; text-align: center; background-color: orange; border: 1px solid #f00;}
 .tops3 .nav:hover {background-color: red !important; color: white !important;}
-.tops3 .nav-sub {position: absolute; top: 40px; left: 0; background-color: rgba(0,0,0,0.8); color: #fff;}
+.tops3 .nav-sub {position: absolute; top: 40px; left: 0; background-color: rgba(0,0,0,0.8); color: #fff; display: none;}
 .tops3 .nav-sub ul {float: left; width: 120px;}
 .tops3 .nav-sub li {padding: 8px 0; text-align: center;}
 .tops3 .nav-sub li:hover {background-color: orange; color: #000;}
@@ -44,6 +44,12 @@ html, body {height: 100%;}
 .tops4 .nav-sub ul {float: left; width: 120px;}
 .tops4 .nav-sub li {padding: 8px 0; text-align: center;}
 .tops4 .nav-sub li:hover {background-color: orange; color: #000;}
+
+
+.lt1 {width: 160px;}
+.lt1 > .nav {padding: 8px; background-color: #ccc; border: 1px solid #f00;}
+.lt1 ul {display: none;}
+.lt1 li {padding: 8px;}
 
 
 

@@ -47,6 +47,27 @@ $(document).ready(function(){
 	$(".tops4 .nav-sub > div > ul").mouseleave(function(){
 		$(".tops4 .nav").css({"background-color": "orange", "color": "#333"});
 	});
+	
+	// 왼쪽1
+	/*
+	$(".lt1 .nav").mouseover(function(){
+		$(".lt1 .nav").find("ul").stop().slideUp(300);
+		$(this).find("ul").stop().slideDown(300);
+	});
+	$(".lt1 .nav").mouseleave(function(){
+		$(".lt1 .nav").find("ul").stop().slideUp(300);
+	});
+	$(".lt1 .nav").click(function(){
+		$(".lt1 .nav").find("ul").stop().slideUp(300);
+		$(this).find("ul").stop().slideDown(300);
+	});
+	*/
+	$(".lt1 .nav").click(function(){
+		$(this).find("ul").stop().slideToggle(300);
+	});
+	
+	
+	
 });
 
 
