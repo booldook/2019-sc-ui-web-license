@@ -28,6 +28,25 @@ $(document).ready(function(){
 	$(".tops3 .nav-sub ul").mouseleave(function(){
 		$(".tops3 .nav").css({"background-color": "orange", "color": "#333"});
 	});
+	
+	
+	$(".tops4 .navs").mouseover(function(){
+		$(this).find(".nav-sub").stop().slideDown(300);
+	});
+	
+	$(".tops4 .navs").mouseleave(function(){
+		$(this).find(".nav-sub").stop().slideUp(300);
+	});
+
+	$(".tops4 .nav-sub > div > ul").mouseover(function(){
+		var i = $(this).index();
+		$(".tops4 .nav").css({"background-color": "orange", "color": "#333"});
+		$(".tops4 .nav").eq(i).css({"background-color": "red", "color": "white"});
+	});
+	
+	$(".tops4 .nav-sub > div > ul").mouseleave(function(){
+		$(".tops4 .nav").css({"background-color": "orange", "color": "#333"});
+	});
 });
 
 

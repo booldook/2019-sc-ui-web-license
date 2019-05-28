@@ -34,6 +34,17 @@ html, body {height: 100%;}
 .tops3 .nav-sub li {padding: 8px 0; text-align: center;}
 .tops3 .nav-sub li:hover {background-color: orange; color: #000;}
 
+.tops4 {position: relative;}
+.tops4 .logo {float: left;}
+.tops4 .navs {float: right;}
+.tops4 .nav {float: left; width: 120px; height: 40px; line-height: 40px; text-align: center; background-color: orange; border: 1px solid #f00;}
+.tops4 .nav:hover {background-color: red !important; color: white !important;}
+.tops4 .nav-sub {width: 960px; position: absolute; top: 40px; left: 0; background-color: rgba(0,0,0,0.8); color: #fff; display: none;}
+.tops4 .nav-sub > div {float: right;}
+.tops4 .nav-sub ul {float: left; width: 120px;}
+.tops4 .nav-sub li {padding: 8px 0; text-align: center;}
+.tops4 .nav-sub li:hover {background-color: orange; color: #000;}
+
 
 
 
