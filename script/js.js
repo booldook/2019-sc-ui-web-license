@@ -48,26 +48,21 @@ $(document).ready(function(){
 		$(".tops4 .nav").css({"background-color": "orange", "color": "#333"});
 	});
 	
-	// 왼쪽1
+	// 왼쪽 - 마우스오버
 	/*
-	$(".lt1 .nav").mouseover(function(){
-		$(".lt1 .nav").find("ul").stop().slideUp(300);
-		$(this).find("ul").stop().slideDown(300);
+	$(".mn-nav").mouseover(function(){
+		$(".sub-nav").stop().slideUp(300);
+		$(this).next().stop().slideDown(300);
 	});
-	$(".lt1 .nav").mouseleave(function(){
-		$(".lt1 .nav").find("ul").stop().slideUp(300);
-	});
-	$(".lt1 .nav").click(function(){
-		$(".lt1 .nav").find("ul").stop().slideUp(300);
-		$(this).find("ul").stop().slideDown(300);
+	$(".lt-nav").mouseleave(function(){
+		$(".lt-nav").find("ul").stop().slideUp(300);
 	});
 	*/
-	$(".lt1 .nav").click(function(){
-		$(this).find("ul").stop().slideToggle(300);
+	// 왼쪽 - 클릭
+	$(".mn-nav").click(function(){
+		$(".sub-nav").stop().slideUp(300);
+		$(this).next().stop().slideToggle(300);
 	});
-	
-	
-	
 });
 
 

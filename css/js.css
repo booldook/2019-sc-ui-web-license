@@ -47,9 +47,15 @@ img, span {margin: 0; padding: 0;}
 
 
 .lt1 {width: 160px;}
-.lt1 > .nav {padding: 8px; background-color: #ccc; border: 1px solid #f00;}
+.lt1 > .lt-nav {padding: 8px; background-color: #ccc; border: 1px solid #f00;}
 .lt1 ul {display: none;}
 .lt1 li {padding: 8px;}
+
+.lt2 {width: 160px;}
+.lt2 > .lt-nav {background-color: #ccc; border: 1px solid #f00; position: relative;}
+.lt2 > .lt-nav > div {padding: 8px;}
+.lt2 ul {position: absolute; width: 100%; top: 0; left: 160px; background-color: rgba(0,0,0,0.8); color: white; display: none;}
+.lt2 li {padding: 8px;}
 
 
 
