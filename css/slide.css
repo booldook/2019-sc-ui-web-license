@@ -6,12 +6,33 @@ table, td, th {margin: 0; padding: 0; border: 0; border-spacing: 0; border-colla
 .clear:after {display: block; content: ""; clear: both;}
 
 .wrap {width: 720px; margin: 30px auto;}
-.slide-wrap {width: 720px; height: 380px; overflow: hidden; position: relative;}
+.slide-wrap {width: 720px; height: 380px; overflow:hidden; position: relative;}
+.slide > div {font-size: 30px; color: #fff; position: absolute; top: 70%; left: 50%; transform: translate(-50%, -50%); padding: 8px 16px; background-color: rgba(0,0,0,0.7);}
 
-/* 슬라이드 - 가로형 */
+/* 슬라이드 - 가로형 1 */
 .slides1 {width: 4320px; position: relative;}
 .slides1 > .slide {float: left; position: relative;}
-.slides1 > .slide > div {font-size: 30px; color: #fff; position: absolute; top: 70%; left: 50%; transform: translate(-50%, -50%);}
+
+
+/* 슬라이드 - 가로형 2 */
+.slides2 {width: 4320px; position: relative; left: -3600px;}
+.slides2 > .slide {float: left; position: relative;}
+
+
+/* 슬라이드 - 세로형 1 */
+.slides3 {width: 720px; position: relative;}
+.slides3 > .slide {position: relative;}
+.slides3 > .slide > img {display: block;}
+
+/* 슬라이드 - 세로형 2 */
+.slides4 {width: 720px; position: relative; top: -1900px;}
+.slides4 > .slide {position: relative;}
+.slides4 > .slide > img {display: block;}
+
+/* 슬라이드 - 페이드 */
+.slides5 {width: 720px; position: relative;}
+.slides5 > .slide {position: absolute; top: 0; left: 0; z-index: 9;}
+.slides5 > .slide > img {display: block;}
 
 
 
