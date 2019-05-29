@@ -8,6 +8,9 @@ table, td, th {margin: 0; padding: 0; border: 0; border-spacing: 0; border-colla
 .wrap {width: 720px; margin: 30px auto;}
 .slide-wrap {width: 720px; height: 380px; overflow:hidden; position: relative;}
 .slide > div {font-size: 30px; color: #fff; position: absolute; top: 70%; left: 50%; transform: translate(-50%, -50%); padding: 8px 16px; background-color: rgba(0,0,0,0.7);}
+.slide-wrap > .bt-slide {font-size: 50px; color: #fff; padding: 0 10px 10px 10px; background-color: rgba(0,0,0,0.7); position: absolute; top: 50%; transform: translateY(-50%); line-height: 1; cursor: pointer;}
+.slide-wrap > .bt-lt {left: 50px;}
+.slide-wrap > .bt-rt {right: 50px;}
 
 /* 슬라이드 - 가로형 1 */
 .slides1 {width: 4320px; position: relative;}
@@ -33,6 +36,10 @@ table, td, th {margin: 0; padding: 0; border: 0; border-spacing: 0; border-colla
 .slides5 {width: 720px; position: relative;}
 .slides5 > .slide {position: absolute; top: 0; left: 0; z-index: 9;}
 .slides5 > .slide > img {display: block;}
+
+/* 슬라이드 - 가로형 클릭 1 */
+.slides6 {width: 3600px; position: relative;}
+.slides6 > .slide {float: left; position: relative;}
 
 
 

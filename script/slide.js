@@ -71,6 +71,21 @@ $(document).ready(function(){
 			else now5++;
 		});
 	}
+	
+	// 슬라이드 가로형 클릭 1
+	var now6 = 0;
+	$("#bt-prev").click(function(){
+		if(now6 > 0) {
+			now6--;
+			$(".slides6").stop().animate({"left":(-720*now6)+"px"}, 500);
+		}
+	});
+	$("#bt-next").click(function(){
+		if(now6 < 4) {
+			now6++;
+			$(".slides6").stop().animate({"left":(-720*now6)+"px"}, 500);
+		}
+	});
 });
 
 
