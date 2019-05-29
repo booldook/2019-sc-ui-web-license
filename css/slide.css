@@ -1,0 +1,30 @@
+html, body {margin: 0; padding: 0; box-sizing: border-box; color: #333;}
+div, ul, li, h1, h2, h3, h4, h5 {margin: 0; padding: 0; box-sizing: border-box;}
+img {margin: 0; padding: 0; border: 0;}
+table, td, th {margin: 0; padding: 0; border: 0; border-spacing: 0; border-collapse: collapse;}
+
+.clear:after {display: block; content: ""; clear: both;}
+
+.wrap {width: 720px; margin: 30px auto;}
+.slide-wrap {width: 720px; height: 380px; overflow: hidden; position: relative;}
+
+/* 슬라이드 - 가로형 */
+.slides1 {width: 4320px; position: relative;}
+.slides1 > .slide {float: left; position: relative;}
+.slides1 > .slide > div {font-size: 30px; color: #fff; position: absolute; top: 70%; left: 50%; transform: translate(-50%, -50%);}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
