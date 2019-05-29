@@ -139,6 +139,22 @@ $(document).ready(function(){
 		else now9++;
 		$(".slides9").stop().animate({"top":(-380*now9)+"px"}, 500);
 	});
+	
+	// 슬라이드 페이드 클릭
+	var now10 = 4;
+	var depth10 = 10;
+	$("#bt-prev5").click(function(){
+		if(now10 == 0) now10 = 4;
+		else now10--;
+		$(".slides10 > .slide").eq(now10).css({"opacity":0, "z-index":depth10++});
+		$(".slides10 > .slide").eq(now10).stop().animate({"opacity": 1}, 500);
+	});
+	$("#bt-next5").click(function(){
+		if(now10 == 4) now10 = 0;
+		else now10++;
+		$(".slides10 > .slide").eq(now10).css({"opacity":0, "z-index":depth10++});
+		$(".slides10 > .slide").eq(now10).stop().animate({"opacity": 1}, 500);
+	});
 });
 
 
