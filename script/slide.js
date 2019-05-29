@@ -86,6 +86,25 @@ $(document).ready(function(){
 			$(".slides6").stop().animate({"left":(-720*now6)+"px"}, 500);
 		}
 	});
+	
+	// 슬라이드 가로형 클릭 2
+	var now7 = 0;
+	$("#bt-prev2").click(function(){
+		if(now7 == 0) {
+			now7 = 4;
+			$(".slides7").css({"left": "-3600px"});
+		}
+		else now7--;
+		$(".slides7").stop().animate({"left":(-720*now7)+"px"}, 500);
+	});
+	$("#bt-next2").click(function(){
+		if(now7 == 5) {
+			now7 = 1;
+			$(".slides7").css({"left": 0});
+		}
+		else now7++;
+		$(".slides7").stop().animate({"left":(-720*now7)+"px"}, 500);
+	});
 });
 
 

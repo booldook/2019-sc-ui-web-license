@@ -41,6 +41,10 @@ table, td, th {margin: 0; padding: 0; border: 0; border-spacing: 0; border-colla
 .slides6 {width: 3600px; position: relative;}
 .slides6 > .slide {float: left; position: relative;}
 
+/* 슬라이드 - 가로형 클릭 2 */
+.slides7 {width: 4320px; position: relative;}
+.slides7 > .slide {float: left; position: relative;}
+
 
 
 
