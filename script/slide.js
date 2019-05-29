@@ -105,6 +105,40 @@ $(document).ready(function(){
 		else now7++;
 		$(".slides7").stop().animate({"left":(-720*now7)+"px"}, 500);
 	});
+	
+	// 슬라이드 세로형 클릭 1
+	var now8 = 0;
+	$("#bt-prev3").click(function(){
+		if(now8 > 0) {
+			now8--;
+			$(".slides8").stop().animate({"top":(-380*now8)+"px"}, 500);
+		}
+	});
+	$("#bt-next3").click(function(){
+		if(now8 < 4) {
+			now8++;
+			$(".slides8").stop().animate({"top":(-380*now8)+"px"}, 500);
+		}
+	});
+	
+	// 슬라이드 세로형 클릭 2
+	var now9 = 0;
+	$("#bt-prev4").click(function(){
+		if(now9 == 0) {
+			$(".slides9").css({"top":"-1900px"});
+			now9 = 4;
+		}
+		else now9--;
+		$(".slides9").stop().animate({"top":(-380*now9)+"px"}, 500);
+	});
+	$("#bt-next4").click(function(){
+		if(now9 == 5) {
+			$(".slides9").css({"top":0});
+			now9 = 1;
+		}
+		else now9++;
+		$(".slides9").stop().animate({"top":(-380*now9)+"px"}, 500);
+	});
 });
 
 

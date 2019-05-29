@@ -51,6 +51,13 @@ table, td, th {margin: 0; padding: 0; border: 0; border-spacing: 0; border-colla
 #bt-prev3 {left: auto; right: 50px; top: 44%; font-size: 30px;}
 #bt-next3 {right: 50px; top: 56%; font-size: 30px;}
 
+/* 슬라이드 - 세로형 클릭 2 */
+.slides9 {width: 720px; position: relative;}
+.slides9 > .slide {position: relative;}
+.slides9 > .slide > img {display: block;}
+#bt-prev4 {left: auto; right: 50px; top: 44%; font-size: 30px;}
+#bt-next4 {right: 50px; top: 56%; font-size: 30px;}
+
 
 
 
