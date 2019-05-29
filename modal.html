@@ -8,10 +8,6 @@
 	<script src="script/modal.js"></script>
 </head>
 <body>
-	<!-- 모달 핸들러 -->
-	<div class="wrap">
-		<h1>모달오픈</h1>
-	</div>
 	<!-- 모달 창 -->
 	<div class="modal">
 		<div class="modal-tit">모달창 제목</div>
@@ -27,12 +23,55 @@
 	<!-- Tab -->
 	<div class="wrap">
 		<div class="tabs">
-			<div class="tab-bts">
-				<div class="tab-bt" id="tab-bt1"></div>
-				<div class="tab-bt" id="tab-bt2"></div>
+			<div class="tab-bts clear">
+				<div class="tab-bt tab-hover" id="tab-bt1">공지사항</div>
+				<div class="tab-bt" id="tab-bt2">갤러리</div>
 			</div>
-			<div class="tab-cont" id="tab-cont1"></div>
-			<div class="tab-cont" id="tab-cont2"></div>
+			<div class="tab-cont" id="tab-cont1">
+				<table>
+					<thead>
+						<tr>
+							<th>번호</th>
+							<th>제목</th>
+							<th>날짜</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>5</td>
+							<td>아버지를 아버지라...</td>
+							<td>2019-05-29</td>
+						</tr>
+						<tr>
+							<td>4</td>
+							<td>아버지를 아버지라...</td>
+							<td>2019-05-29</td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>아버지를 아버지라...</td>
+							<td>2019-05-29</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>아버지를 아버지라...</td>
+							<td>2019-05-29</td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>아버지를 아버지라...</td>
+							<td>2019-05-29</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="tab-cont" id="tab-cont2">
+				<div class="gals clear">
+					<div class="gal"><img src="images/images1.jpg" alt="갤러리1"></div>
+					<div class="gal"><img src="images/images2.jpg" alt="갤러리2"></div>
+					<div class="gal"><img src="images/images3.jpg" alt="갤러리3"></div>
+				</div>
+			</div>
 		</div>
 	</div>
 </body>

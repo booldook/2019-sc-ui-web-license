@@ -4,3 +4,46 @@ img {margin: 0; padding: 0; border: 0;}
 table, td, th {margin: 0; padding: 0; border: 0; border-spacing: 0; border-collapse: collapse;}
 
 .clear:after {display: block; content: ""; clear: both;}
+
+.wrap {width: 1000px; margin: 50px auto;}
+
+.modal {width: 400px; height: 400px; position: absolute; background-color: #fff; left: 50%; top: 50%; transform: translate(-50%, -50%); border: 1px solid #aaa; display: none; box-shadow: 0 0 10px rgba(0,0,0,0.3);}
+.modal-tit {height: 60px; padding: 10px; font-size: 18px; line-height: 40px; font-weight: bold; color: chocolate; border-bottom: 1px solid #aaa;}
+.modal-cont {height: 280px; padding: 10px; text-align: justify;}
+.modal-foot {height: 60px; padding: 10px; text-align: right; border-top:1px solid #aaa;}
+
+.tabs {width: 400px; height: 300px;}
+.tab-bts {height: 40px; border-bottom: 1px solid #aaa;}
+.tab-bt {float: left; width: 120px; height: 39px; color: #000; background-color: #aaa; line-height: 39px; text-align: center; cursor: pointer;}
+.tab-hover {color: #fff; background-color: darkblue;}
+
+.tab-cont {border: 1px solid #aaa; padding: 12px; height: 280px;}
+.tabs table {width: 100%;}
+.tabs th {border-bottom: 2px solid #999; text-align: center; padding: 8px;}
+.tabs td {border-bottom: 1px solid #aaa; text-align: center; padding: 8px; cursor: pointer;}
+
+#tab-cont2 {display: none;}
+.gal {width: 32%; float: left;}
+.gal:nth-child(2) {margin: 0 2%; height: 78px; overflow: hidden;}
+.gal img {width: 100%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
