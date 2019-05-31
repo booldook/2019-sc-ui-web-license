@@ -156,7 +156,6 @@ $(document).ready(function(){
 		$(".slides10 > .slide").eq(now10).stop().animate({"opacity": 1}, 500);
 	});
 
-	var now11 = 0;
 	var depth11 = 10;
 	$(".pager").click(function(){
 		var i = $(this).index();
@@ -164,6 +163,13 @@ $(document).ready(function(){
 		$(this).css({"color":"orange"});
 		$(".slides11 > .slide").eq(i).css({"z-index": depth11++, "opacity":0});
 		$(".slides11 > .slide").eq(i).stop().animate({"opacity":1}, 500);
+	});
+
+	$(".pager2").click(function(){
+		var i = $(this).index();
+		$(".pager2").css({"color":"#333"});
+		$(this).css({"color":"orange"});
+		$(".slides12").stop().animate({"left":(-720*i)+"px"}, 500);
 	});
 });
 

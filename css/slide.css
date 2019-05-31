@@ -72,6 +72,11 @@ table, td, th {margin: 0; padding: 0; border: 0; border-spacing: 0; border-colla
 .pagers {text-align: center; position: absolute; width: 100%; bottom: 20px; z-index: 60000;}
 .pager {margin: 0 5px; color: #333; font-size: 18px; cursor: pointer;}
 
+/* 슬라이드 - 가로형 클릭 2 */
+.slides12 {width: 4320px; position: relative;}
+.slides12 > .slide {float: left; position: relative;}
+.pager2 {margin: 0 5px; color: #333; font-size: 18px; cursor: pointer;}
+
 
 
 
